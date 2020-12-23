@@ -1,0 +1,13 @@
+SET @site_name_01 = 'Tiền mỹ hiệu';
+SET @site_name_02 = '美號銭';
+SET @site_name_03 = '美号銭';
+SET @site_name_04 = 'Tien my hieu';
+
+INSERT INTO `host` (`language_id`, `host`, `name`, `primary`) VALUES (@vi, 'tienmyhieu.com', @site_name_01, 0); SET @host_01 = LAST_INSERT_ID();
+INSERT INTO `host` (`language_id`, `host`, `name`, `primary`) VALUES (@vi, 'www.tienmyhieu.com', @site_name_01, 0); SET @host_02 = LAST_INSERT_ID();
+INSERT INTO `host` (`language_id`, `host`, `name`, `primary`) VALUES (@vi, 'vi.tienmyhieu.com', @site_name_01, 1); SET @host_03 = LAST_INSERT_ID();
+INSERT INTO `host` (`language_id`, `host`, `name`, `primary`) VALUES (@zh_hant, 'zh-hant.tienmyhieu.com', @site_name_02, 1); SET @host_04 = LAST_INSERT_ID();
+INSERT INTO `host` (`language_id`, `host`, `name`, `primary`) VALUES (@zh_hans, 'zh-hans.tienmyhieu.com', @site_name_03, 1); SET @host_05 = LAST_INSERT_ID();
+INSERT INTO `host` (`language_id`, `host`, `name`, `primary`) VALUES (@ja, 'ja.tienmyhieu.com', @site_name_03, 1); SET @host_06 = LAST_INSERT_ID();
+INSERT INTO `host` (`language_id`, `host`, `name`, `primary`) VALUES (@fr, 'fr.tienmyhieu.com', @site_name_04, 1); SET @host_07 = LAST_INSERT_ID();
+INSERT INTO `host` (`language_id`, `host`, `name`, `primary`) VALUES (@en, 'en.tienmyhieu.com', @site_name_04, 1); SET @host_08 = LAST_INSERT_ID();

@@ -1,0 +1,6 @@
+INSERT INTO `language` (`language`, `locale`, `dir`, `local`, `visible`) VALUES ('vi', 'vi_VN', 'ltr', 'Tiếng Việt', 1); SET @vi = LAST_INSERT_ID();
+INSERT INTO `language` (`language`, `locale`, `dir`, `local`, `visible`) VALUES ('zh-hant', 'zh_HK', 'ltr', '中文 (繁)', 1); SET @zh_hant = LAST_INSERT_ID();
+INSERT INTO `language` (`language`, `locale`, `dir`, `local`, `visible`) VALUES ('zh-hans', 'zh_CN', 'ltr', '中文 (简)', 1); SET @zh_hans = LAST_INSERT_ID();
+INSERT INTO `language` (`language`, `locale`, `dir`, `local`, `visible`) VALUES ('ja', 'ja_JP', 'ltr', '日本語', 1); SET @ja = LAST_INSERT_ID();
+INSERT INTO `language` (`language`, `locale`, `dir`, `local`, `visible`) VALUES ('fr', 'fr_FR', 'ltr', 'Français', 1); SET @fr = LAST_INSERT_ID();
+INSERT INTO `language` (`language`, `locale`, `dir`, `local`, `visible`) VALUES ('en', 'en_GB', 'ltr', 'English', 1); SET @en = LAST_INSERT_ID();

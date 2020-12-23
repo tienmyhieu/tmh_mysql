@@ -1,0 +1,6 @@
+source use.mysql
+source create_tables.mysql
+source countries.mysql
+source languages.mysql
+source hosts.mysql
+source pages.mysql
